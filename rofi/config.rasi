@@ -1,0 +1,72 @@
+configuration {
+	display-drun: "app:";
+	drun-display-format: "{icon} {name}";
+	display-window: "win:";
+	font: "JetBrainsMono Nerd Font 14";
+	show-icons: true;
+	modi: "window,drun";
+}
+
+@theme "/dev/null"
+
+* {
+	bg: #181926;
+	bg-alt: #303446;
+	fg: #cad3f5;
+	fg-alt: #838ba7;
+	pink: #f5bde6;
+
+	background-color: @bg;
+	
+	// color: @fg;
+
+	border: 0;
+	margin: 0;
+	padding: 0;
+	spacing: 0;
+}
+
+window {
+	width: 45%;
+	height: 40%;
+}
+
+element {
+	padding: 12;
+	text-color: @fg-alt;
+}
+
+element selected {
+	text-color: @fg;
+}
+
+element-text {
+	background-color: inherit;
+	text-color: inherit;
+	vertical-align: 0.5;
+	}
+
+entry {
+	background-color: @bg-alt;
+	padding: 12;
+	text-color: @fg;
+	}
+
+inputbar { 
+	children: [prompt, entry];
+}
+
+listview {
+	background-color: @bg;
+	}
+mainbox {
+	background-color: @bg;
+	children: [inputbar, listview];
+	}
+
+prompt {
+	background-color: @bg-alt;
+	enabled: true;
+	padding: 12 0 0 12;
+	text-color: @fg;
+	}
