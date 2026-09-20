@@ -1,0 +1,10 @@
+font=JetBrainsMono Nerd Propo 12
+sort=-time
+layer=overlay
+anchor=top-right
+background-color=#181926
+width=370
+height=140
+border-size=1
+border-color=#f5bde6
+default-timeout=3000

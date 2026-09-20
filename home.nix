@@ -38,6 +38,7 @@
     ".config/waybar".source = ./config/waybar;
     ".config/mango".source = ./config/mango;
     ".config/rofi".source = ./config/rofi;
+    ".config/mako".source = ./config/mako;
   };
 
 }
