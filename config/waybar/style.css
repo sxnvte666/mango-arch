@@ -22,3 +22,7 @@ button:hover {
 	background: inherit;
 	color: #f5bde6;
 }
+
+#custom-sep {
+	color: #494d64;
+}
