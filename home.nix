@@ -39,6 +39,7 @@
     ".config/mango".source = ./config/mango;
     ".config/rofi".source = ./config/rofi;
     ".config/mako".source = ./config/mako;
+    ".config/fastfetch".source = ./config/fastfetch;
   };
 
 }

@@ -8,13 +8,15 @@
   // "width": 1000,
   "mango/workspaces": {
       "format": "{icon}",
-      "hide-empty": true,
+      "hide-empty": false,
       "on-click": "activate",
       "on-click-right": "toggle",
       "overview-label": "OVERVIEW",
   },
   "clock": {
     "format-alt": "{:%a, %d. %b  %H:%M}",
+    "on-click": "gnome-calendar",
+    "tooltip-format": "{:%d-%m-%Y}",
   },
   "pulseaudio": {
     "format": "{volume}% vol ",
@@ -33,7 +35,7 @@
       "default": ["", ""],
     },
     "scroll-step": 1,
-    "on-click": "pavucontrol",
+    "on-click": "foot --app-id wiremix wiremix",
     "on-click-right": "pamixer -t",
   },
   "disk": {

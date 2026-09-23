@@ -1,10 +1,7 @@
-catppuccin-gtk-theme-macchiato
 cider-2
 fetch-git
 librepods
 mangowm-git
 vesktop-bin
 waybar-git
-yay-bin
-yay-bin-debug
 zen-browser-bin
