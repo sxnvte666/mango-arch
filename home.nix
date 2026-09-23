@@ -6,6 +6,7 @@
   home.username = "sx";
   home.homeDirectory = "/home/sx";
   home.stateVersion = "26.05";
+  home-manager.backupFileExtension = "backup";
 
   programs.home-manager.enable = true;
   targets.genericLinux.enable = true;
