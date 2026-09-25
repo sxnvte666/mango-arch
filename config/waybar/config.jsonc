@@ -15,7 +15,7 @@
   },
   "clock": {
     "format-alt": "{:%a, %d. %b  %H:%M}",
-    "on-click-right": "gnome-calendar",
+    "on-click-right": "thunderbird",
     "on-click": "",
     "tooltip-format": "{:%d-%m-%Y}",
   },
