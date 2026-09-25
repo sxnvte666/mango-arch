@@ -26,3 +26,7 @@ button:hover {
 #custom-sep {
 	color: #A3B08F;
 }
+
+#tray widget>image {
+    margin-right: 2px;
+}
