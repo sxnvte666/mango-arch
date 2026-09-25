@@ -2,15 +2,14 @@
 
 {
   home.packages = [
-    pkgs.pfetch
     (pkgs.catppuccin-gtk.override {
-    	accents = [ "pink" ];
+    	accents = [ "green" ];
 	    size = "standard";
-	    variant = "macchiato";
+	    variant = "mocha";
     })
     (pkgs.catppuccin-papirus-folders.override {
-	    flavor = "macchiato";
-	    accent = "pink";
+	    flavor = "mocha";
+	    accent = "green";
     })
   ];
 }

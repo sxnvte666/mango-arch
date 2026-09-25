@@ -6,7 +6,6 @@
   home.username = "sx";
   home.homeDirectory = "/home/sx";
   home.stateVersion = "26.05";
-  home-manager.backupFileExtension = "backup";
 
   programs.home-manager.enable = true;
   targets.genericLinux.enable = true;
@@ -23,7 +22,7 @@
   dconf.settings = {
   	"org/gnome/desktop/interface" = {
 		color-scheme = "prefer-dark";
-		gtk-theme = "catppuccin-macchiato-pink-standard";
+		gtk-theme = "catppuccin-mocha-green-standard";
 		icon-theme = "Papirus-Dark";
 		};
   };

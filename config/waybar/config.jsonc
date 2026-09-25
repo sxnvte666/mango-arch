@@ -11,11 +11,12 @@
       "hide-empty": false,
       "on-click": "activate",
       "on-click-right": "toggle",
-      "overview-label": "OVERVIEW",
+      "overview-label": "overview",
   },
   "clock": {
     "format-alt": "{:%a, %d. %b  %H:%M}",
-    "on-click": "gnome-calendar",
+    "on-click-right": "gnome-calendar",
+    "on-click": "",
     "tooltip-format": "{:%d-%m-%Y}",
   },
   "pulseaudio": {
@@ -43,11 +44,10 @@
     "format": "{percentage_free}% free on {path}",
   },
   "custom/sep": {
-    "format": "|",
+    "format": "| ",
     "interval": 0
   },
   "tray": {
      "icon-size": 21,
   },
 }
-

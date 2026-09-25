@@ -2,19 +2,20 @@ configuration {
 	display-drun: "app:";
 	drun-display-format: "{icon} {name}";
 	display-window: "win:";
-	font: "JetBrainsMono Nerd Font 14";
+	font: "Terminess Nerd Font 14";
 	show-icons: true;
+	icon-theme: "Papirus-Dark";
 	modi: "window,drun";
 }
 
 @theme "/dev/null"
 
 * {
-	bg: #181926;
-	bg-alt: #303446;
-	fg: #cad3f5;
-	fg-alt: #838ba7;
-	pink: #f5bde6;
+	bg: #15170F;
+	bg-alt: #1D2016;
+	fg: #F6F8EF;
+	fg-alt: #a6a89d;
+	pink: #9FD88A;
 
 	background-color: @bg;
 	
@@ -27,7 +28,7 @@ configuration {
 }
 
 window {
-	width: 45%;
+	width: 30%;
 	height: 40%;
 }
 

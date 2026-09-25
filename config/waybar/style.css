@@ -1,7 +1,7 @@
 * {
 	border: none;
 	border-radius: 0;
-	font-family: JetBrainsMono Nerd Font Propo;
+	font-family: Terminess Nerd Font;
 	font-size: 14px;
 
 	/* min-height: 0; */
@@ -10,19 +10,19 @@
 }
 
 window#waybar {
-	background-color: #181926;
-	color: #cad3f5;
+	background-color: #15170F;
+	color: #E5E9D8;
 }
 
 #workspaces button.active {
-	color: #f5bde6;
+	color: #9FD88A;
 }
 
 button:hover {
 	background: inherit;
-	color: #f5bde6;
+	color: #9FD88A;
 }
 
 #custom-sep {
-	color: #494d64;
+	color: #A3B08F;
 }

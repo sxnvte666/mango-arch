@@ -1,3 +1,4 @@
+pacseek-bin
 cider-2
 fetch-git
 librepods

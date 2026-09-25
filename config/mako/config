@@ -1,10 +1,10 @@
-font=JetBrainsMono Nerd Propo 12
+font=Terminess Nerd Font 12
 sort=-time
 layer=overlay
 anchor=top-right
-background-color=#181926
+background-color=#1D2016
 width=370
 height=140
 border-size=1
-border-color=#f5bde6
+border-color=#9FD88A
 default-timeout=3000
