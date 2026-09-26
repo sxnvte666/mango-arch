@@ -1,0 +1,5 @@
+require("config.options")
+require("config.keybinds")
+require("config.neovide")
+require("config.lazy")
+vim.cmd("colorscheme pistachio-noir")
