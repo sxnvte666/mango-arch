@@ -40,7 +40,7 @@
     ".config/rofi".source = ./config/rofi;
     ".config/mako".source = ./config/mako;
     ".config/fastfetch".source = ./config/fastfetch;
-    ".config/nvim".source = ./config/nvim;
+    # ".config/nvim".source = ./config/nvim;
   };
 
 }
