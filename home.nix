@@ -30,7 +30,7 @@
   qt = {
     enable = true;
     style.name = "adwaita-dark";
-    style.package = pkgs.adwaita-qt;
+    style.package = pkgs.adwaita-qt6;
   };
 
   home.file = {
@@ -42,6 +42,8 @@
     ".config/fastfetch".source = ./config/fastfetch;
     # ".config/nvim".source = ./config/nvim;
     ".config/tmux".source = ./config/tmux;
+    ".config/sunsetr".source = ./config/sunsetr;
+    ".config/otter-launcher".source = ./config/otter-launcher;
   };
 
 }
