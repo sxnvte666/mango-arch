@@ -15,6 +15,7 @@ fzf
 git
 gnome-text-editor
 gst-plugin-pipewire
+hyprlock
 libqalculate
 loupe
 lsd
@@ -44,7 +45,6 @@ udiskie
 uwufetch
 wiremix
 wireplumber
-xdg-user-dirs
 xwayland-satellite
 yazi
 zathura

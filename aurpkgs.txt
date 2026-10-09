@@ -6,3 +6,6 @@ mangowm-git
 vesktop-bin
 waybar-git
 zen-browser-bin
+fsel
+otter-launcher
+sunsetr

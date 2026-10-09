@@ -191,6 +191,11 @@ power $(echo -e 'reboot\nshutdown\nlogout\nsuspend\nhibernate' | fzf --info-comm
 """
 
 [[modules]]
+description = "mango keybinds (fzf)"
+prefix = "kb"
+cmd = "~/.config/otter-launcher/keybinds.sh"
+
+[[modules]]
 description = "run commands"
 prefix = "sh"
 cmd = """
