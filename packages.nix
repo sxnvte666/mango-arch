@@ -11,5 +11,6 @@
 	    flavor = "mocha";
 	    accent = "green";
     })
+    pkgs.gnome-themes-extra
   ];
 }

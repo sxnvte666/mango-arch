@@ -2,6 +2,7 @@
 	border: none;
 	border-radius: 0;
 	font-family: Terminess Nerd Font;
+	font-weight: normal;
 	font-size: 14px;
 
 	/* min-height: 0; */
@@ -14,6 +15,12 @@ window#waybar {
 	color: #E5E9D8;
 }
 
+#workspaces button {
+    color: #959999;
+    padding: 0 11px;
+    min-width: 0;
+}
+
 #workspaces button.active {
 	color: #9FD88A;
 }
@@ -21,6 +28,14 @@ window#waybar {
 button:hover {
 	background: inherit;
 	color: #9FD88A;
+}
+
+#workspaces button:hover,
+#workspaces button.active:hover {
+	background: inherit;
+	color: #9FD88A;
+	box-shadow: none;
+	text-shadow: none;
 }
 
 #custom-sep {

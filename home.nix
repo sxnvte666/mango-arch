@@ -22,7 +22,7 @@
   dconf.settings = {
   	"org/gnome/desktop/interface" = {
 		color-scheme = "prefer-dark";
-		gtk-theme = "catppuccin-mocha-green-standard";
+		gtk-theme = "Adwaita-dark";
 		icon-theme = "Papirus-Dark";
 		};
   };
@@ -44,6 +44,8 @@
     ".config/tmux".source = ./config/tmux;
     ".config/sunsetr".source = ./config/sunsetr;
     ".config/otter-launcher".source = ./config/otter-launcher;
+    ".config/gtk-4.0".source = ./config/gtk.4.0;
+    ".config/gtk-3.0".source = ./config/gtk.3.0;
   };
 
 }
