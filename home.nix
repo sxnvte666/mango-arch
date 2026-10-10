@@ -34,7 +34,7 @@
   };
 
   home.file = {
-    ".config/foot".source = ./config/foot;
+    ".config/kitty".source = ./config/kitty;
     ".config/waybar".source = ./config/waybar;
     ".config/mango".source = ./config/mango;
     ".config/rofi".source = ./config/rofi;

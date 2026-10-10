@@ -9,7 +9,7 @@ fastfetch
 fd
 file-roller
 flatpak
-foot
+kitty
 fzf
 git
 gnome-text-editor

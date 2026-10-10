@@ -36,7 +36,7 @@
       "default": ["", ""],
     },
     "scroll-step": 1,
-    "on-click": "foot --app-id wiremix wiremix",
+    "on-click": "kitty --class wiremix wiremix",
     "on-click-right": "pamixer -t",
   },
   "disk": {
