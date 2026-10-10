@@ -40,12 +40,9 @@
     ".config/rofi".source = ./config/rofi;
     ".config/mako".source = ./config/mako;
     ".config/fastfetch".source = ./config/fastfetch;
-    # ".config/nvim".source = ./config/nvim;
     ".config/tmux".source = ./config/tmux;
     ".config/sunsetr".source = ./config/sunsetr;
     ".config/otter-launcher".source = ./config/otter-launcher;
-    ".config/gtk-4.0".source = ./config/gtk.4.0;
-    ".config/gtk-3.0".source = ./config/gtk.3.0;
   };
 
 }

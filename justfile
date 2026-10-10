@@ -1,4 +1,4 @@
-ascend: pacman-packages user-dirs wallpaper aur-helper aur-packages nix-init final
+ascend: pacman-packages user-dirs misc wallpaper aur-helper aur-packages nix-init final
 
 pacman-packages:
     sudo pacman -Syu --needed - < pacmanpkg.txt
@@ -19,6 +19,12 @@ user-dirs:
 
 wallpaper:
     cp {{justfile_directory()}}/wallpaper.png ~/Pictures/wallpaper-dithered.png
+
+polishing:
+    sudo echo "permit persist :wheel as root" >> /etc/doas.conf
+     mkdir -p ~/.config/gtk-4.0/ ~/.config/gtk-3.0/
+      cp -r {{justfile_directory()}}/gtk-theme/gtk.css ~/.config/gtk-4.0/
+    cp -r {{justfile_directory()}}/gtk-theme/gtk.css ~/.config/gtk-3.0/
 
 aur-helper:
     mkdir -p ~/git
