@@ -7,3 +7,11 @@ waybar-git
 fsel
 otter-launcher
 sunsetr
+chromium-widevine
+helium-browser-bin
+claude-desktop
+claude-code
+nil-git
+nixd
+superseedr-bin
+yay
