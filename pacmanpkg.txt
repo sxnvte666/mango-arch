@@ -1,6 +1,5 @@
 base-devel
 bat
-blueman
 bluetui
 btop
 cpupower
@@ -25,18 +24,11 @@ mako
 nautilus
 neovim
 nix
-noto-fonts
-noto-fonts-emoji
-nvidia-open
-nvidia-settings
-nvidia-utils
 opendoas
-pamixer
 pavucontrol
 qalculate-gtk
 ripgrep
 rofi
-sudo
 swaybg
 tldr
 ttf-iosevka-nerd
