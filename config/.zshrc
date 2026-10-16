@@ -27,7 +27,10 @@ plugins=(
   git
   doas
   extract
+  thefuck
   zsh-autosuggestions
+  aliases
+  web-search
   zsh-syntax-highlighting # keep this one last
 )
 
@@ -62,6 +65,10 @@ fsize() {
     du -ch -- "$@" | rg 'total$'
 }
 
+calc() {
+    qalc "$@"
+}
+
 # udiskie
 alias usbmount="udisksctl mount -b /dev/sdb1"
 alias usbumount="udisksctl unmount -b /dev/sdb1"
@@ -69,3 +76,6 @@ alias usboff="udisksctl power-off -b /dev/sdb1"
 
 # Added by vibez installer
 export PATH="${HOME}/.local/bin:${PATH}"
+
+# Added by claude-mem installer for claude-mem
+export PATH="$HOME/.local/bin:$PATH"
