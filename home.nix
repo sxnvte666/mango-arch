@@ -9,6 +9,7 @@
 
   programs.home-manager.enable = true;
   targets.genericLinux.enable = true;
+  targets.genericLinux.gpu.enable = true;
 
   fonts.fontconfig = {
     enable = true;

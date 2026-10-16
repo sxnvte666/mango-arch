@@ -22,8 +22,8 @@ wallpaper:
 
 polishing:
     sudo echo "permit persist :wheel as root" >> /etc/doas.conf
-     mkdir -p ~/.config/gtk-4.0/ ~/.config/gtk-3.0/
-      cp -r {{justfile_directory()}}/gtk-theme/gtk.css ~/.config/gtk-4.0/
+    mkdir -p ~/.config/gtk-4.0/ ~/.config/gtk-3.0/
+    cp -r {{justfile_directory()}}/gtk-theme/gtk.css ~/.config/gtk-4.0/
     cp -r {{justfile_directory()}}/gtk-theme/gtk.css ~/.config/gtk-3.0/
 
 aur-helper:

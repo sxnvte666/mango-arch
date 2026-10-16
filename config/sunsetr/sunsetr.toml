@@ -29,7 +29,7 @@ static_gamma = 100
 
 #[Manual transitions]
 # See https://psi4j.github.io/sunsetr/configuration/transition-modes.html#manual-transitions
-sunset = "20:00:00"
+sunset = "20:50:00"
 sunrise = "06:00:00"
 transition_duration = 45
 
